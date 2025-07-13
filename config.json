@@ -1,0 +1,18 @@
+{
+    "provider": "local",
+    "local": {
+        "base_url": "http://localhost:8000/v1",
+        "api_key": "dummy",
+        "model": "mistralai/Mistral-7B-Instruct-v0.1"
+    },
+    "openai": {
+        "base_url": "https://api.openai.com/v1",
+        "api_key": "your-openai-key-here",
+        "model": "gpt-3.5-turbo"
+    },
+    "anthropic": {
+        "base_url": "https://api.anthropic.com/v1",
+        "api_key": "your-anthropic-key-here",
+        "model": "claude-3-sonnet-20240229"
+    }
+}

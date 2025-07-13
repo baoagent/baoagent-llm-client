@@ -1,0 +1,7 @@
+# LLM Client Virtual Environment
+venv/
+*.pyc
+__pycache__/
+.env
+.DS_Store
+config.local.json
